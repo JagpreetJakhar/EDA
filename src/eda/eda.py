@@ -20,8 +20,8 @@ def _():
 
 @app.cell
 def _():
-    dct_file = "public/2002FemPreg.dct"
-    dat_file = "public/2002FemPreg.dat.gz"
+    dct_file = "./public/2002FemPreg.dct"
+    dat_file = "./public/2002FemPreg.dat.gz"
     return dat_file, dct_file
 
 
