@@ -1,0 +1,19 @@
+[project]
+name = "eda"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "JagpreetJakhar", email = "*************@gmail.com" }
+]
+requires-python = ">=3.12.3"
+dependencies = [
+    "marimo>=0.16.2",
+]
+
+[project.scripts]
+eda = "eda:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
